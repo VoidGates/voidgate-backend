@@ -3,7 +3,6 @@ name: Rust
 on:
   pull_request:
   push:
-    branches: [main]
 
 jobs:
   verify:
@@ -16,4 +15,3 @@ jobs:
       - run: cargo fmt --all -- --check
       - run: cargo clippy --all-targets -- -D warnings
       - run: cargo test --all-targets
-
