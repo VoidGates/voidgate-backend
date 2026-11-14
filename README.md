@@ -1,6 +1,6 @@
 # VoidGate backend
 
-Small Rust skeleton for an HTTP security decision service. It returns `decoy` only for exact paths configured by the operator; other valid paths return `allow`. The service does not proxy traffic or run a honeypot yet. The integrating gateway must enforce each decision.
+VoidGate is an optional security layer for applications and AI workflows. This Rust skeleton provides HTTP policy decisions; it is not a network firewall or a replacement for authentication, authorization, or a WAF. It returns `decoy` only for exact paths configured by the operator; other valid paths return `allow`. The integrating gateway must enforce each decision. This skeleton does not proxy traffic or run a honeypot yet.
 
 ## Run
 
@@ -32,4 +32,3 @@ cargo fmt --all -- --check
 cargo clippy --all-targets -- -D warnings
 cargo test --all-targets
 ```
-
