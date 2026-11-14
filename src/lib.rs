@@ -149,7 +149,12 @@ mod tests {
     #[tokio::test]
     async fn health_is_public() {
         let response = test_app()
-            .oneshot(Request::builder().uri("/health").body(Body::empty()).unwrap())
+            .oneshot(
+                Request::builder()
+                    .uri("/health")
+                    .body(Body::empty())
+                    .unwrap(),
+            )
             .await
             .unwrap();
         assert_eq!(response.status(), StatusCode::OK);
@@ -203,4 +208,3 @@ mod tests {
         assert!(AppState::new("a".repeat(32), vec!["relative".into()]).is_err());
     }
 }
-
