@@ -1,8 +1,8 @@
-# Este repositório foi substituído
+# O código está no repositório único
 
-O VoidGate agora é um repositório só: [VoidGates/VoidGate](https://github.com/VoidGates/VoidGate).
+O VoidGate agora está em [VoidGates/VoidGate](https://github.com/VoidGates/VoidGate).
 
-A página principal está em https://voidgates.github.io/VoidGate/.
+A página é a mesma de antes. Os dois endereços abrem o mesmo site: https://voidgates.github.io/VoidGate/ e https://voidgates.github.io/voidgate-frontend/.
 
 O texto abaixo ficou de quando a API e o site eram repositórios separados.
 
