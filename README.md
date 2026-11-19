@@ -1,3 +1,12 @@
+# Este repositório foi substituído
+
+O VoidGate agora é um repositório só: [VoidGates/VoidGate](https://github.com/VoidGates/VoidGate).
+
+A página principal está em https://voidgates.github.io/VoidGate/.
+
+O texto abaixo ficou de quando a API e o site eram repositórios separados.
+
+---
 # VoidGate backend
 
 O VoidGate é uma camada adicional e opcional de segurança para aplicações e fluxos de IA. Este repositório contém um esqueleto de API em Rust. Nesta etapa, ele **decide** se um caminho HTTP configurado deve ser encaminhado para uma isca e se uma mensagem de chat pode seguir; o gateway que integra a API precisa aplicar a decisão. O serviço ainda não recebe tráfego como proxy nem executa um ambiente-isca.
